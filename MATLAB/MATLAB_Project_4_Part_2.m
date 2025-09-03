@@ -1,0 +1,16 @@
+clc;
+clear;
+close all;
+x = linspace(-1*pi,pi,100);
+y1 = sin(x);
+y2 = sin(2*x);
+y3 = sin(3*x);
+plot(x,y1,'--r','linewidth',1.5);
+hold on;
+plot(x,y2,'-b','linewidth',1.5);
+hold on;
+plot(x,y3,':g','linewidth',1.5);
+hold on;
+set(gca,'fontsize',12);
+xlabel('Time (s)','fontsize',14);
+grid on;

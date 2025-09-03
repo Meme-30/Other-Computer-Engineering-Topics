@@ -1,0 +1,34 @@
+clear, clc
+disp("Case 1: Horizontal Load");
+theta1 = input('Input the value of theta1: ');
+theta2 = input('Input the value of theta2: ');
+F1x = 0;
+F1y = -1000;
+A = [-cosd(theta1), cosd(theta2), 0, 0, 0, 0;
+    -sind(theta1), -sind(theta2), 0, 0, 0, 0;
+    cosd(theta1), 0, 1, 1, 0, 0;
+    sind(theta1), 0, 0, 0, 1, 0;
+    0, -cosd(theta2), -1, 0, 0, 0;
+    0, sind(theta2), 0, 0, 0, 1];
+B = [F1x; -F1y; 0; 0; 0; 0];
+x = A\B;
+disp("x =");
+fprintf("%f   ", x);
+fprintf("\n\n");
+
+disp("Case 2: Horizontal Load");
+theta1 = input('Input the value of theta1: ');
+theta2 = input('Input the value of theta2: ');
+F1x = 1000;
+F1y = 0;
+A = [-cosd(theta1), cosd(theta2), 0, 0, 0, 0;
+    -sind(theta1), -sind(theta2), 0, 0, 0, 0;
+    cosd(theta1), 0, 1, 1, 0, 0;
+    sind(theta1), 0, 0, 0, 1, 0;
+    0, -cosd(theta2), -1, 0, 0, 0;
+    0, sind(theta2), 0, 0, 0, 1];
+B = [F1x; -F1y; 0; 0; 0; 0];
+x = A\B;
+disp("x =");
+fprintf("%f   ", x);
+fprintf("\n\n");

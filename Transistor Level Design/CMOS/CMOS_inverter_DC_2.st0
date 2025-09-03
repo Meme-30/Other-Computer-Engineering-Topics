@@ -1,0 +1,40 @@
+****** HSPICE -- R-2020.12 win64 (Nov 23 2020 6727817) ******
+Input File: C:\Users\jkaras8780\Downloads\CMOS_inverter_DC_2.sp
+lic:
+lic: FLEXlm: SDK_12.9
+lic: USER:   jkaras8780           HOSTNAME: ISTCOMMONS-37
+lic: HOSTID: "0a0027000004"       PID:      15156
+lic: Using FLEXlm license file:
+lic: 27020@CCC-SYNOPSYS-LM
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 15-dec-2022/2021.09
+lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27020@CCC-SYNOPSYS-LM
+lic:
+
+ init: begin read circuit files, cpu clock= 1.15E-01
+       option search = C:/synopsys/Hspice_R-2020.12/parts/behave/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/AD/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/XILINX/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/TLINE/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/TI/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/SIGNET/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/PCI/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/LIN_TECH/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/PET/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/DI0/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/COMLINE/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/BURR_BRM/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/BJT/
+       option post
+ init: end read circuit files, cpu clock= 1.23E-01 peak memory=      70 mb
+ init: begin check errors, cpu clock= 1.23E-01
+ init: end check errors, cpu clock= 1.31E-01 peak memory=      70 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.31E-01
+       establish matrix -- done, cpu clock= 1.31E-01 peak memory=      70 mb
+       re-order matrix -- done, cpu clock= 1.31E-01 peak memory=      70 mb
+ init: end setup matrix, cpu clock= 1.32E-01 peak memory=      70 mb
+ output: C:\Users\jkaras8780\Downloads\CMOS_inverter_DC_2.sw0
+ sweep: dc dc0    begin, #sweeps=  11 cpu clock= 1.32E-01
+ sweep: dc dc0    end, cpu clock= 1.34E-01 peak memory=      70 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

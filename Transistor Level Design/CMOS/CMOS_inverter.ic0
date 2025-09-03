@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "R-2020.12 win64"
+* "format" "HSP"
+* "rundate" "10:34:56 11/20/2022 "
+* "netlist" "CMOS_inverter.sp "
+* "runtitle" "* this is the model for a 45-nm cmos inverter *"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd =   1.0000        
++ vin =   0.            
++ vout = 999.9910m       
+***   END: Saved Operating Point ***                     

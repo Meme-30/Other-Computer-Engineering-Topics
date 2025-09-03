@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "R-2020.12 win64"
+* "format" "HSP"
+* "rundate" "13:52:51 11/20/2022 "
+* "netlist" "C:\Users\jkaras8780\Downloads\RL_inverter_2.sp "
+* "runtitle" "* this is the model for a 45-nm rl inverter *"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd =   1.0000        
++ vin =   0.            
++ vout = 999.9309m       
+***   END: Saved Operating Point ***                     

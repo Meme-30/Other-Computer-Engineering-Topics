@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='R-2020.12 win64' PARAM_COUNT=0
+.TITLE '* this is the model for a 45-nm pseudo-nmos inverter *'
+ tplh             tphl             temper           alter#          
+  1.107e-10        2.311e-11         25.0000        1               
